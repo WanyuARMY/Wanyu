@@ -1,10 +1,9 @@
 @charset "utf-8"
-@import url(normalizw.css);
 
 body{
     background-color: beige;
     color: blueviolet;
-    margin:0px
+    margin:0px;
 }
 h1{
     width:300px;
@@ -14,11 +13,35 @@ h1{
     background-color: #ffb6c1;
     color: #a52a2a;
     font-size: 300%;
-    text-align: center;
     line-height:1;
 }
-#container {
+main{
+    background-color: bisque;}
+    
+main{
+    background-color: burlywood;
+}
+
+.main{
     width:80%;
-    background-color: lightpink;
+    background-color: rgb(255, 184, 194);
     margin:0px auto;
+    padding: 80px;
+    border: 1px solid #f7ca59
+}
+
+h2{
+  padding: 10px;
+  margin-bottom: 30px;
+  border:1px dotted  #55ecc1;
+  border-left: #f7ec59;
+  color: #44e4cc
+}
+  
+.round{
+    border-radius: 50%;
+}
+h1，header，nav，footer{
+
+    text-align: center;
 }
