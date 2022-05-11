@@ -1,0 +1,21 @@
+header{
+    height:200px;
+    background-color: #ffe6c4;
+}
+aside{
+    height:200px;
+    background-color: #f5c953;
+    width: 20%;
+    float:left;
+}
+header{
+    height:200px;
+    background-color: #d59233;
+    width: 80%;
+    float:left;
+}
+header{
+    height:100px;
+    background-color: #53e999;
+    clear:both;
+}
