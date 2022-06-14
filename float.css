@@ -1,21 +1,25 @@
 header{
-    height:200px;
-    background-color: #ffe6c4;
+    height: 300px;
+    background-color: rgb(243, 189, 189);
 }
 aside{
-    height:200px;
-    background-color: #f5c953;
+    height: 300px;
+    background-color: rgb(250, 211, 181);
     width: 20%;
-    float:left;
+    float: left;
 }
-header{
-    height:200px;
-    background-color: #d59233;
+section{
+    background-color: rgb(243, 238, 164);
     width: 80%;
-    float:left;
+    float: left;
 }
-header{
-    height:100px;
-    background-color: #53e999;
-    clear:both;
+footer{
+    height: 150px;
+    background-color: rgb(166, 243, 243);
+    clear: both;
+}
+.post{
+    text-align: center;
+    padding: 15px;
+    float: left;
 }
