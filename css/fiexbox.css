@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+body,ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav{
+    background-color: rgb(244, 211, 246);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 193);
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(213, 180, 248);
+    color: rgb(255, 255, 255);
+    transition: backgroun-color 1s linear,color 1s ease-in-out;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 197, 255,85%);
+}
+.title{
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#photolist img{
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px rgb(68, 80, 99);
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 50px;
+    color: rgb(98, 86, 121);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
